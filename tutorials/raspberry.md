@@ -3,7 +3,7 @@ Tip: All text inside \<brackets\> is a placeholder you should replace.
 
 Before following this tutorial, make sure to read [github.md](https://www.youtube.com/watch?v=HkdAHXoRtos).
 
-## Get started with your project in a Raspberry Pi
+## Raspberry Pi project setup
 
 Start your project by creating a virtual environment for it.
 
@@ -23,22 +23,35 @@ source ~/envs/<name>/bin/activate
 
 Whenever you're running code directly in a code editor, you must also specificy what venv it must use, otherwise it will just use the default python interpreter, without any of the libraries you installed. In vscode, for example, you select your venv by doing CTRL+SHIFT+P > Interpreter > \<venv-name\>
 
-## Clone a repository within your Raspberry Pi's terminal
+## Clone repositories from your Raspberry Pi
 
-To clone a repo, perform the following command (this will use the default PolluxSpace github credentials):
+Please keep Raspberry Pi files organized by cloning your repositories in `~/repos/`. The following commands already take this into consideration.
+
+You can skip this tutorial if you're using a code editor capable of authenticating into github and cloning repositories.
+
+If the repository is public, you can simply run:
+
+```
+cd ~/repos
+git clone "https://github.com/<username>/<reponame>.git"
+```
+
+For a safer, and more robust cloning command, using PolluxSpace github credentials:
+
 ```
 cd ~/repos
 gh repo clone <username>/<reponame>
 ```
-If the PolluxSpace user doesn't have permission to clone the repo, the command will fail.
 
-If the project is private, pulling from it must have our credentials. As such, we must add them to the origin. Here's how:
+If the PolluxSpace account doesn't have permission to clone the repo, the command will fail.
+
+If the project is private, you might have to include the PolluxSpace credentials as follows:
 
 ```
 git remote set-url origin <url>
 ```
 
-This is the typical url format. Ask the key to your technology manager, or generate one using PolluxSpace credentials directly in github.
+This is the typical url format. You can ask for the key to department's Technology Manager, or generate one inside github if you have access to PolluxSpace credentials.
 
 ```
 url format: https://<username>:<key>@github.com/<username>/<reponame>

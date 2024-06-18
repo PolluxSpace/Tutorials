@@ -4,8 +4,8 @@ basic tutorials
 
 in raspberry.md
 - Get started with your project in a Raspberry Pi
-- Clone a repository within your Raspberry Pi's terminal
+- Clone repositories from your Raspberry Pi
 
 in github.md
-- Create a repository
+- Raspberry Pi project setup
 - Use a repository
