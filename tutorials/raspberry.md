@@ -3,7 +3,7 @@
 - All text inside \<brackets\> is a placeholder you should replace.
 - This tutorial assumes you read [github.md](https://github.com/PolluxSpace/Tutorials/blob/main/tutorials/github.md) or have some pre-existing git/github knowledge.
 
-## Raspberry Pi project setup
+## Setup your Project on the Pi
 
 Start your project by creating a virtual environment for it.
 
@@ -23,7 +23,7 @@ source ~/envs/<name>/bin/activate
 
 Whenever you're running code directly in a code editor, you must also specificy what venv it must use, otherwise it will just use the default python interpreter, without any of the libraries you installed. In vscode, for example, you select your venv by doing CTRL+SHIFT+P > Interpreter > \<venv-name\>
 
-## Clone repositories from your Raspberry Pi
+## Clone repositories on the Pi
 
 Please keep Raspberry Pi files organized by cloning your repositories in `~/repos/`. The following commands already take this into consideration.
 

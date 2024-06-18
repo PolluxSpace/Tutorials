@@ -1,18 +1,18 @@
-## Create a repository
+## Create a Repository
 A repository is like a google drive for your code, that controls all the history of changes made to it. Make sure to keep it private. To create one follow these steps:
 
 1. log into PolluxSpace's github account from within your prefered browser.
 2. Follow this guide: [create repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository). An external guide is used to make sure the procedure is up to date. Please don't forget to keep this repository private.
 3. [Add your team's github accounts as collaborators](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository). You should never edit code as PolluxSpace. If a team member doesn't have a github account, they should create one using their personal e-mail and not the polluxspace.pt one.
 
-## Use a repository
+## Use a Repository
 To use a repository, you must clone it into your computer. Think of it like logging into google drive in a computer, and editing files from there.
 
 Follow this guide: [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 Now, you should plan with your team a strategy for developing code, like which branches do what, to minimize merge conflicts, and start developing!
 
-### If you're unfamiliar with git and github
+### If you're unfamiliar with Git or Github
 There's a high probability you or your team members won't have any experience using git or github. Make sure to get a basic understanding before advancing. If no-one from your team knows git or github, please talk with your directive body to request a workshop.
 
 If you just need a refresher, here's the most important concepts:
