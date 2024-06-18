@@ -30,6 +30,5 @@ When you change code in your computer, it's not automatically updated on github.
 Also, unless your code editor is already periodically doing this for you (which isn't recommended), the code on github doesn't get updated automatically in your computer, so you won't see changes made by other people. For that, you must "fetch" from the remote, and then "merge" any changes onto the branch you're working on. You can do this all in one step by executing a "pull"
 
 All the names in quotations are actual commands you can execute on your terminal, but git and github become much more powerful when integrated into a code editor. Here's some more complete tutorials:
-
-[without using the terminal](https://www.youtube.com/watch?v=8Dd7KRpKeaE) 
-[using the terminal](https://www.youtube.com/watch?v=HkdAHXoRtos) 
+- [without using the terminal](https://www.youtube.com/watch?v=8Dd7KRpKeaE) 
+- [using the terminal](https://www.youtube.com/watch?v=HkdAHXoRtos) 
