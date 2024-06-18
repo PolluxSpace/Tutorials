@@ -15,7 +15,7 @@ Now, whenever you need to perform an action in a terminal that relates to your p
 source ~/envs/<name>/bin/activate
 ```
 
-Whenever you're running code directly in an ide, you must also specificy to the ide, what venv it must use, otherwise it will just use the default python interpreter. In vscode, for example, you select your venv by doing CTRL+SHIFT+P > Interpreter > <venv-name>
+Whenever you're running code directly in an ide, you must also specificy to the ide, what venv it must use, otherwise it will just use the default python interpreter. In vscode, for example, you select your venv by doing CTRL+SHIFT+P > Interpreter > \<venv-name\>
 
 ## How to clone a repository within your Raspberry terminal
 
