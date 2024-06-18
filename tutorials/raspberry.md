@@ -51,11 +51,11 @@ If the project is private, you might have to include the PolluxSpace credentials
 git remote set-url origin <url>
 ```
 
-This is the typical url format. You can ask for the key to department's Technology Manager, or generate one inside github if you have access to PolluxSpace credentials.
+This is the typical url format. You can ask for a auth token to department's Technology Manager, or generate one inside github if you have access to PolluxSpace credentials by following [this guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token)
 
 ```
-url format: https://<username>:<key>@github.com/<username>/<reponame>
-pollux url format: https://PolluxSpace:<key>@github.com/PolluxSpace/<reponame>
+url format: https://<username>:<token>@github.com/<username>/<reponame>
+pollux url format: https://PolluxSpace:<token>@github.com/PolluxSpace/<reponame>
 
 ```
 
