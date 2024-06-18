@@ -1,9 +1,15 @@
 
-## How to start a Raspberry project
+Tip: All text inside \<brackets\> is a placeholder you should replace.
+
+Before following this tutorial, make sure to read [github.md](https://www.youtube.com/watch?v=HkdAHXoRtos).
+
+## Get started with your project in a Raspberry Pi
+
+Start your project by creating a virtual environment for it.
 
 A virtual environment (venv) is a localized python instance, with its own version and installed packages. This allows different projects in the same raspberry to have different and maybe incompatible python versions and packages installed, without any problem.
 
-In a terminal, create your project's venv
+In a terminal, create your project's venv by running this command.
 
 ```
 python3 -m venv ~/envs/<venv-name>
@@ -15,9 +21,9 @@ Now, whenever you need to perform an action in a terminal that relates to your p
 source ~/envs/<name>/bin/activate
 ```
 
-Whenever you're running code directly in an ide, you must also specificy to the ide, what venv it must use, otherwise it will just use the default python interpreter. In vscode, for example, you select your venv by doing CTRL+SHIFT+P > Interpreter > \<venv-name\>
+Whenever you're running code directly in a code editor, you must also specificy what venv it must use, otherwise it will just use the default python interpreter, without any of the libraries you installed. In vscode, for example, you select your venv by doing CTRL+SHIFT+P > Interpreter > \<venv-name\>
 
-## How to clone a repository within your Raspberry terminal
+## Clone a repository within your Raspberry Pi's terminal
 
 To clone a repo, perform the following command (this will use the default PolluxSpace github credentials):
 ```
