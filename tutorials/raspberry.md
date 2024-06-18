@@ -1,7 +1,7 @@
 
-Tip: All text inside \<brackets\> is a placeholder you should replace.
-
-Before following this tutorial, make sure to read [github.md](https://www.youtube.com/watch?v=HkdAHXoRtos).
+**Important**:
+- All text inside \<brackets\> is a placeholder you should replace.
+- This tutorial assumes you read [github.md](https://github.com/PolluxSpace/Tutorials/blob/main/tutorials/github.md) or have some pre-existing git/github knowledge.
 
 ## Raspberry Pi project setup
 
